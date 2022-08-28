@@ -5,7 +5,6 @@ let calcularAverage = (...markLists) => {
         for (let values of markList) {
             sum += Number(values.value)
         }
-        // console.log(sum, markList.length)
         return avarage = (sum / Number(markList.length)).toFixed(2);
     }
 }
